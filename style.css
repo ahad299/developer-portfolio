@@ -11,8 +11,10 @@ h1{
 } 
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
+    margin-top: 50px;
     width: 50%;
     padding-left: 5%;
     padding-top: 10px;
@@ -32,4 +34,9 @@ section{
 .topbanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
